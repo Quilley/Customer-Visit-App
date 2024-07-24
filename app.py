@@ -8,7 +8,7 @@ from datetime import datetime
 @st.cache_data
 def load_data_from_github():
     # GitHub raw file URL
-    url = 'https://raw.githubusercontent.com/your-username/Visit-Logs-Analysis/main/Visit_logs.csv'
+    url = 'https://github.com/Quilley/Customer-Visit-App/blob/main/Visit%20Logs%20(6).csv'
     
     # Read CSV file from URL
     visit_df = pd.read_csv(url)
