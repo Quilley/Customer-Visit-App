@@ -4,7 +4,7 @@ import folium
 from streamlit_folium import folium_static
 
 # Load data
-url = "Your_GitHub_CSV_URL_Here"
+url = "https://github.com/Quilley/Customer-Visit-App/blob/main/Data/Visit%20Logs%20(6).csv"
 Visit_df = pd.read_csv(url)
 
 # Streamlit app
