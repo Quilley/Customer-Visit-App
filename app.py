@@ -4,8 +4,8 @@ import folium
 from streamlit_folium import folium_static
 
 # Load data
-url = "https://github.com/Quilley/Customer-Visit-App/blob/main/Data/Visit%20Logs%20(6).csv"
-Visit_df = pd.read_csv(url)
+url = "https://github.com/Quilley/Customer-Visit-App/blob/main/Data/Visit%20Logs%20(6).xlsx"
+Visit_df = pd.read_excel(url)
 
 # Streamlit app
 st.title("Visit Map")
